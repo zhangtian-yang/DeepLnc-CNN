@@ -24,7 +24,8 @@ Optional arguments:
                         Tianyang.Zhang819@outlook.com
   -i INPUTFILE, --inputFile INPUTFILE
                         -i input.txt (The input file is a complete Fasta
-                        format sequence.)
+                        format sequence. The input should not contain 
+                        characters other than 'ATGC'.)
   -o OUTPUTFILE, --outputFile OUTPUTFILE
                         -o output_prediction.html (Results of predicting 
                         lncRNAs are saved under results folder.)
