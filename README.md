@@ -41,7 +41,7 @@ pip install -r yours/requirement.txt
 python DeepLnc-CNN.py -i Example.txt -o output.html -s Human -ts 0.5
 ```
 ***
-Version number：V0.1.0 <br>
-Updated date：2023-03-26 <br>
+Version number：V1.0 <br>
+Updated date：2023-11-17 <br>
 Email: Tianyang.Zhang819@outlook.com
 ***
