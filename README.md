@@ -1,11 +1,11 @@
-DeepLnc-CNN
-====
-Description:
-------------
+# DeepLnc-CNN
+
+## Description:
+
 DeepLnc-CNN is able to identify the long non-coding RNAs in human and mouse.
 
-Installation:
--------------
+## Installation:
+
 - <span  style="color: #5bdaed; font-weight: bold">python3.8</span>
 - pytorch==1.8.2+cpu
 - numpy==1.21.5
@@ -16,8 +16,8 @@ pip3 install numpy==1.21.5
 ``` 
 pip install -r yours/requirement.txt
 ``` 
-Optional arguments:
--------------------
+## Optional arguments:
+
 ```
   -h, --help            Show this help message and exit.
   --addresses ADDRESSES
@@ -35,8 +35,8 @@ Optional arguments:
   -ts THRESHOLD, --threshold THRESHOLD  
                         -ts 0.5(Prediction result threshold)
 ```
-Example:
---------
+## Example:
+
 ```
 python DeepLnc-CNN.py -i Example.txt -o output.html -s Human -ts 0.5
 ```
