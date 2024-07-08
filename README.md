@@ -1,22 +1,27 @@
 # DeepLnc-CNN
 
-## Description:
+DeepLnc-CNN can effectively identify lncRNAs in both humans and mouse. This is part of the implementation of my Master's thesis (DOI: [10.27108/d.cnki.ghelu.2023.001223](https://doi.org/10.27108/d.cnki.ghelu.2023.001223)). 
 
-DeepLnc-CNN is able to identify the long non-coding RNAs in human and mouse.
+![DeepLnc-CNN overview](js/DeepLnc-CNN_overview.png)
 
-## Installation:
+## Installation
 
-- <span  style="color: #5bdaed; font-weight: bold">python3.8</span>
-- pytorch==1.8.2+cpu
-- numpy==1.21.5
-``` 
-pip3 install torch==1.8.2 torchvision==0.9.2 torchaudio===0.8.2 --extra-index-url https://download.pytorch.org/whl/lts/1.8/cpu
-pip3 install numpy==1.21.5
-``` 
-``` 
-pip install -r yours/requirement.txt
-``` 
-## Optional arguments:
+- <span  style="color: #5bdaed; font-weight: bold">[Python](https://www.python.org/)>=3.8</span>
+- [Pytorch](https://pytorch.org/)>=1.8.2
+- [NumPy](https://numpy.org/)>=1.21.5
+```
+git clone https://github.com/zhangtian-yang/DeepLnc-CNN.git
+cd DeepLnc-CNN
+pip install -r requirements.txt
+```
+
+## Example
+
+```
+python DeepLnc-CNN.py -i Example.txt -o output.html -s Human -ts 0.5
+```
+
+## Optional arguments
 
 ```
   -h, --help            Show this help message and exit.
@@ -35,13 +40,16 @@ pip install -r yours/requirement.txt
   -ts THRESHOLD, --threshold THRESHOLD  
                         -ts 0.5(Prediction result threshold)
 ```
-## Example:
 
-```
-python DeepLnc-CNN.py -i Example.txt -o output.html -s Human -ts 0.5
-```
+## Acknowledgements
+
+DeepLncPro uses and/or references the following separate libraries and packages (ordered alphabetically):
+
+- [NumPy](https://numpy.org/)
+- [Pytorch](https://pytorch.org/)
+  
+Thanks for all their contributors and maintainers!
 ***
 Version number：V1.0 <br>
 Updated date：2023-11-17 <br>
-Email: Tianyang.Zhang819@outlook.com
 ***
