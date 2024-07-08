@@ -1,6 +1,6 @@
 # DeepLnc-CNN
 
-DeepLnc-CNN can effectively identify lncRNAs in both humans and mouse. This is part of the implementation of my Master's thesis "Identification of LncRNA and Its Promoter Based on Deep Learning Algorithms"(DOI: [10.27108/d.cnki.ghelu.2023.001223](https://doi.org/10.27108/d.cnki.ghelu.2023.001223)). 
+DeepLnc-CNN can effectively identify lncRNAs in both humans and mouse. This is part of the implementation of my Master's thesis, "Identification of LncRNA and Its Promoter Based on Deep Learning Algorithms" (DOI: [10.27108/d.cnki.ghelu.2023.001223](https://doi.org/10.27108/d.cnki.ghelu.2023.001223)). 
 
 ![DeepLnc-CNN overview](js/DeepLnc-CNN_overview.png)
 
